@@ -38,23 +38,23 @@ async function main() {
     ]);
     const num1 = parseFloat(input.num1);
     const num2 = parseFloat(input.num2);
-    let result;
     const selectedOperator = input.operator;
+    let result;
     if (selectedOperator === Operator.ADD) {
         result = num1 + num2;
-        console.log(chalk.green.bgRedBright(`result is: ${result}`));
-    }
-    else if (selectedOperator === Operator.SUBTRACT) {
-        result = num1 - num2;
-        console.log(chalk.green.bgRedBright(`result is: ${result}`));
-    }
-    else if (selectedOperator === Operator.MULTIPLY) {
-        result = num1 * num2;
-        console.log(chalk.green.bgRedBright(`result is: ${result}`));
+        console.log(chalk.green.bgRedBright(`Result is : ${result}`));
     }
     else if (selectedOperator === Operator.DIVIDE) {
         result = num1 / num2;
-        console.log(chalk.green.bgRedBright(`result is: ${result}`));
+        console.log(chalk.yellow.bgBlack(`Result is : ${result}`));
+    }
+    else if (selectedOperator === Operator.MULTIPLY) {
+        result = num1 * num2;
+        console.log(chalk.blue.bgYellowBright(`Result is : ${result}`));
+    }
+    else if (selectedOperator === Operator.SUBTRACT) {
+        result = num1 - num2;
+        console.log(chalk.blue.bgYellowBright(`Result is : ${result}`));
     }
 }
 main();
