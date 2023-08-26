@@ -1,0 +1,30 @@
+
+Node LTS verison 
+npm init -y (will initiate with default values)
+(you can customize your package.json)
+
+npm install typescript
+tsc --init
+tsc -w 
+npm install inquirer 
+npm install @types/inquirer 
+npm install chalk
+npm install @types/chalk 
+npm install ts-node
+npm install @inquirer/prompts
+
+
+npm install typescript inquirer chalk @types/inquirer @types/chalk ts-node
+
+Changes needed in tsconfig.json
+on line 14 :  	set	"target": "ES2022",                                  
+on line 28 :  	set	"module": "NodeNext",          /* Specify what module code is generated. */
+on line 30 : 	set	"moduleResolution": "NodeNext",
+
+Optional change in tsconfig if you want to save your .js files in other directory.
+
+on line 58 :  uncomment   "outDir": "./dist",     /* Specify an output folder for all emitted files. */
+
+
+change need in package.json
+"type": "module",
