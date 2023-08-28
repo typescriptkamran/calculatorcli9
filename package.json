@@ -4,6 +4,12 @@
   "version": "1.0.1",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.ts",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typescriptkamran/cli-calculator.git"
+  },
+
   "scripts": {
     "start": "node ./dist/app.js"
   },
