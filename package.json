@@ -1,5 +1,5 @@
 {
-  "name": "cli-calculator",
+  "name": "@typescriptkamran/cli-calculator",
   "type": "module",
   "version": "1.0.2",
   "description": "Simple CLI calculator for Node projects",
