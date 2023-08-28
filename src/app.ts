@@ -5,6 +5,8 @@ import { input } from '@inquirer/prompts';
 
 // callculater operators
 
+console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`))
+
 enum Operator 
 {
 

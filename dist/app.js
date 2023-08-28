@@ -1,6 +1,7 @@
 import * as inquirer from "inquirer";
 import chalk from "chalk";
 // callculater operators
+console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`));
 var Operator;
 (function (Operator) {
     Operator["ADD"] = "Addition";
