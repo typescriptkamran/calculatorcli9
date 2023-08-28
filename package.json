@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.1",
   "description": "Simple CLi calculator for Node projects",
-  "main": "index.js",
+  "main": "./src/app.ts",
   "scripts": {
     "start": "node ./dist/app.js"
   },
