@@ -5,7 +5,6 @@ import { input } from '@inquirer/prompts';
 
 // callculater operators
 
-console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`))
 
 enum Operator 
 {
@@ -29,6 +28,8 @@ return true;
 
 async function main()
 {
+    console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`))
+
     const input = await prompt([
         {
             type: "input",
@@ -79,4 +80,5 @@ async function main()
 
 }
 
+main()
 export default main;

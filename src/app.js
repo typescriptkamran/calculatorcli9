@@ -1,7 +1,6 @@
 import * as inquirer from "inquirer";
 import chalk from "chalk";
 // callculater operators
-console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`));
 var Operator;
 (function (Operator) {
     Operator["ADD"] = "Addition";
@@ -17,6 +16,7 @@ function validateNumber(input) {
     return true;
 }
 async function main() {
+    console.log(chalk.overline.underline.blue.bold.italic(`This is a simple CLI command Based Calculator:`));
     const input = await prompt([
         {
             type: "input",
@@ -58,4 +58,5 @@ async function main() {
         console.log(chalk.blue.bgYellowBright(`Result is : ${result}`));
     }
 }
+main();
 export default main;
