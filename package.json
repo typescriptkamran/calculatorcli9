@@ -1,16 +1,16 @@
 {
   "name": "@typescriptkamran/cli-calculator",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.js",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/typescriptkamran/cli-calculator.git"
-   },
+  },
   "scripts": {
     "start": "node ./src/app.js"
-    },
+  },
   "keywords": [],
   "author": "Muhammad Kamran",
   "license": "ISC",
