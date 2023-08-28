@@ -1,6 +1,4 @@
-Sure, here's the updated text in `readme.md` format for GitHub:
 
-```markdown
 # Getting Started with Your Node.js Project
 
 This guide will help you set up and configure a Node.js project with TypeScript, using best practices for development and publishing. Follow the steps below to get started:
