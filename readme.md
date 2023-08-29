@@ -1,53 +1,35 @@
+@typescriptkamran/cli-calculator
+A simple command-line calculator built with TypeScript.
 
-# Getting Started with Your Node.js Project
+Installation
+To use the CLI calculator, you need to have Node.js installed on your system. Then, you can install the package globally using npm:
 
-This guide will help you set up and configure a Node.js project with TypeScript, using best practices for development and publishing. Follow the steps below to get started:
+bash
+Copy code
+npm install -g @typescriptkamran/cli-calculator
+Usage
+Once the package is installed, you can use the calculator via the command line.
 
-## Prerequisites
+bash
+Copy code
+calculator
+The calculator will prompt you to enter mathematical expressions. It supports basic arithmetic operations, parentheses, and floating-point numbers.
 
-Make sure you have the following installed on your system:
+Example Usage
+bash
+Copy code
+$ calculator
+> This is a simple CLI command Based Calculator:
+> ? Please enter the first number: 2
+> ? Select an operation: Multiplication
+> ? Please enter the second number: 5
+> Result is : 10
 
-- Node.js LTS version
+###Command Line Options
+The CLI calculator supports the following command line options:
 
-## Project Initialization
 
-1. Open your terminal and navigate to your project directory.
-
-2. Run the following command to initialize your project with default values:
-
-   ```bash
-   npm init -y
-   ```
-
-3. You can now customize your `package.json` file as needed.
-
-## TypeScript Setup
-
-1. Install TypeScript:
-
-   ```bash
-   npm install typescript
-   ```
-
-2. Initialize TypeScript configuration:
-
-   ```bash
-   npx tsc --init
-   ```
-
-3. Start TypeScript compiler in watch mode:
-
-   ```bash
-   npx tsc -w
-   ```
-
-## Dependencies
-
-Install the required dependencies for your project:
-
-```bash
-npm install inquirer @types/inquirer chalk @types/chalk ts-node @inquirer/prompts
-```
+# If you want to import it as a module in typescript Node JS project
 
 ## Configuration Changes
 
@@ -80,25 +62,22 @@ Modify your `package.json` by adding the following line:
 }
 ```
 
-## Publishing Your Package
-
-1. Sign up for an account on the [npm website](https://www.npmjs.com/signup).
-
-2. In your command prompt, bump the version of your package:
-
-   ```bash
-   npm version patch
-   ```
-
-3. Publish your package to npm:
-
-   ```bash
-   npm publish
-   ```
-
-Congratulations! Your Node.js project with TypeScript is now configured, and you're ready to develop and publish your package.
-
-For more information and advanced configurations, refer to the official documentation of the tools and libraries used.
+### Add the following line to your index.ts
 ```
+import main from "@typescriptkamran/cli-calculator"
 
-Feel free to copy and paste this markdown code into your `readme.md` file on GitHub. Make sure to adjust any paths, details, or additional explanations according to your project's requirements.
+main()
+```
+###Troubleshooting
+If you encounter any issues while using the CLI calculator, please consider the following:
+
+Ensure that you've installed Node.js on your system.
+Check for any typos or syntax errors in your mathematical expressions.
+If the issue persists, feel free to report it on the GitHub repository.
+https://github.com/typescriptkamran/cli-calculator
+
+Contributing
+Contributions are welcome! If you find a bug or have an idea for improvement, please submit an issue or pull request on the GitHub repository.
+https://github.com/typescriptkamran/cli-calculator
+License
+This package is distributed under the MIT License.
