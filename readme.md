@@ -1,37 +1,8 @@
-@typescriptkamran/cli-calculator
-A simple command-line calculator built with TypeScript.
+#@typescriptkamran/cli-calculator
 
-Installation
-To use the CLI calculator, you need to have Node.js installed on your system. Then, you can install the package globally using npm:
+## You can import it as a module in typescript Node JS project
 
-bash
-Copy code
-npm install -g @typescriptkamran/cli-calculator
-Usage
-Once the package is installed, you can use the calculator via the command line.
-
-bash
-Copy code
-calculator
-The calculator will prompt you to enter mathematical expressions. It supports basic arithmetic operations, parentheses, and floating-point numbers.
-
-Example Usage
-bash
-Copy code
-$ calculator
-> This is a simple CLI command Based Calculator:
-> ? Please enter the first number: 2
-> ? Select an operation: Multiplication
-> ? Please enter the second number: 5
-> Result is : 10
-
-###Command Line Options
-The CLI calculator supports the following command line options:
-
-
-# If you want to import it as a module in typescript Node JS project
-
-## Configuration Changes
+### Configuration Changes
 
 ### `tsconfig.json`
 
