@@ -1,4 +1,4 @@
-#@typescriptkamran/cli-calculator
+# @typescriptkamran/cli-calculator
 
 ## You can import it as a module in typescript Node JS project
 
