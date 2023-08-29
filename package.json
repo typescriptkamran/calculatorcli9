@@ -1,7 +1,7 @@
 {
   "name": "@typescriptkamran/cli-calculator",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.js",
   "repository": {
