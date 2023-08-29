@@ -9,7 +9,7 @@
     "url": "https://github.com/typescriptkamran/cli-calculator.git"
   },
   "bin": {
-    "calculator": "./calculator.bat"
+    "calculator": "./bin/calculator.js"  
   },
   "scripts": {
     "start": "node ./src/app.js"
