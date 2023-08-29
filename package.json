@@ -8,9 +8,8 @@
     "type": "git",
     "url": "https://github.com/typescriptkamran/cli-calculator.git"
   },
-  "bin": {
-    "calculator": "./calculator.bat"
-  },
+  "bin": "./src/app.js",
+  
   "scripts": {
     "start": "node ./src/app.js"
   },
