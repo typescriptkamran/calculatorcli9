@@ -6,7 +6,7 @@
   "main": "./src/app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/typescriptkamran/cli-calculator.git"
+    "url": "https://github.com/typescriptkamran/calculatorcli9.git"
   },
   "bin": {
     "calculatorcli9": "bin/app.js"
