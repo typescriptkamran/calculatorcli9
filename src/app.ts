@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
+
 import * as inquirer from "inquirer";
 import chalk from "chalk";
 import { input } from '@inquirer/prompts';
