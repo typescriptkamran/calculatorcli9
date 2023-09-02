@@ -1,7 +1,7 @@
 {
   "name": "calculatorcli9",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.js",
   "repository": {
@@ -11,7 +11,6 @@
   "bin": {
     "calculatorcli9": "./src/app.js"
   },
-
   "keywords": [],
   "author": "Muhammad Kamran",
   "license": "ISC",
