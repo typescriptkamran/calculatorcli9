@@ -1,10 +1,26 @@
-# @typescriptkamran/cli-calculator
+# calculatorcli9
 
-## You can import it as a module in typescript Node JS project
+## Installation
+
+You can install the `calculatorcli9` package globally using npm:
+
+```sh
+npm install -g calculatorcli9
+```
+
+Alternatively, you can use `npx` to run it without installing it globally:
+
+```sh
+npx calculatorcli9
+```
+
+## Usage as a Module in TypeScript Node.js Project
+
+To use `calculatorcli9` as a module in your TypeScript Node.js project, follow these steps:
 
 ### Configuration Changes
 
-### `tsconfig.json`
+#### `tsconfig.json`
 
 Update your `tsconfig.json` file with the following changes:
 
@@ -22,7 +38,7 @@ Update your `tsconfig.json` file with the following changes:
 }
 ```
 
-### `package.json`
+#### `package.json`
 
 Modify your `package.json` by adding the following line:
 
@@ -33,22 +49,36 @@ Modify your `package.json` by adding the following line:
 }
 ```
 
-### Add the following line to your index.ts
-```
-import main from "@typescriptkamran/cli-calculator"
+### Import and Run
 
-main()
+In your TypeScript file (e.g., `index.ts`), add the following import statement:
+
+```typescript
+import main from "calculatorcli9";
+
+main();
 ```
-###Troubleshooting
+
+### Troubleshooting
+
 If you encounter any issues while using the CLI calculator, please consider the following:
 
-Ensure that you've installed Node.js on your system.
-Check for any typos or syntax errors in your mathematical expressions.
-If the issue persists, feel free to report it on the GitHub repository.
-https://github.com/typescriptkamran/cli-calculator
+- Ensure that you've installed Node.js on your system.
+- Check for any typos or syntax errors in your mathematical expressions.
 
-Contributing
-Contributions are welcome! If you find a bug or have an idea for improvement, please submit an issue or pull request on the GitHub repository.
-https://github.com/typescriptkamran/cli-calculator
-License
+If the issue persists, feel free to report it on the GitHub repository:
+
+[GitHub Repository](https://github.com/typescriptkamran/cli-calculator)
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have an idea for improvement, please submit an issue or pull request on the GitHub repository:
+
+[GitHub Repository](https://github.com/typescriptkamran/cli-calculator)
+
+## License
+
 This package is distributed under the MIT License.
+```
+
+This README.md file provides clear instructions on how to install and use the `calculatorcli9` package both globally and as a module in a TypeScript Node.js project. It also includes links to the GitHub repository for reporting issues and contributing.
