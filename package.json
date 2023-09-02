@@ -9,8 +9,9 @@
     "url": "https://github.com/typescriptkamran/calculatorcli9.git"
   },
   "bin": {
-    "calculatorcli9": "bin/src/app.js"
+    "calculatorcli9": "./src/app.js"
   },
+
   "keywords": [],
   "author": "Muhammad Kamran",
   "license": "ISC",
