@@ -74,7 +74,7 @@ If the issue persists, feel free to report it on the GitHub repository:
 
 Contributions are welcome! If you find a bug or have an idea for improvement, please submit an issue or pull request on the GitHub repository:
 
-[GitHub Repository](https://github.com/typescriptkamran/cli-calculator)
+[GitHub Repository](https://github.com/typescriptkamran/calculatorcli9.git)
 
 ## License
 
