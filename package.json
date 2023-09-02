@@ -1,14 +1,17 @@
 {
-  "name": "cli-Kalc9",
+  "name": "calculatorcli9",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.1",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/typescriptkamran/cli-calculator.git"
   },
-  "bin": "./src/app.js",
+  "bin": {
+    "calculatorcli9": "./src/app.js"
+  },
+  
   "scripts": {
     "start": "node ./src/app.js"
   },
