@@ -5,7 +5,7 @@
 You can install the `calculatorcli9` package globally using npm:
 
 ```
-npm i calculatorcli9
+npm i -g calculatorcli9
 ```
 
 Alternatively, you can use `npx` to run it without installing it globally:
