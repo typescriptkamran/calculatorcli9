@@ -4,13 +4,13 @@
 
 You can install the `calculatorcli9` package globally using npm:
 
-```sh
-npm install -g calculatorcli9
+```
+npm i calculatorcli9
 ```
 
 Alternatively, you can use `npx` to run it without installing it globally:
 
-```sh
+```
 npx calculatorcli9
 ```
 
@@ -24,7 +24,7 @@ To use `calculatorcli9` as a module in your TypeScript Node.js project, follow t
 
 Update your `tsconfig.json` file with the following changes:
 
-```json
+```
 {
   "compilerOptions": {
     "target": "ES2022",
@@ -42,7 +42,7 @@ Update your `tsconfig.json` file with the following changes:
 
 Modify your `package.json` by adding the following line:
 
-```json
+```
 {
   // ...other settings
   "type": "module"
