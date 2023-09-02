@@ -1,7 +1,7 @@
 {
   "name": "calculatorcli9",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple CLI calculator for Node projects",
   "main": "./src/app.js",
   "repository": {
